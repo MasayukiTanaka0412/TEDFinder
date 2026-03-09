@@ -11,7 +11,6 @@ const TAGS = [
   "psychology",
 ];
 
-
 const BASE_SPEECHES_SEED = {
   en: [
     { title: "Do schools kill creativity?", speaker: "Sir Ken Robinson", year: 2006, tags: ["education", "creativity", "society"], popularity: 99, url: "https://www.ted.com/talks/sir_ken_robinson_do_schools_kill_creativity" },
@@ -121,6 +120,90 @@ const BASE_SPEECHES_SEED = {
 
 const BASE_SPEECHES = BASE_SPEECHES_SEED;
 const SPEECHES = BASE_SPEECHES;
+
+
+const QUESTIONS = [
+  {
+    text: { ja: "いま一番伸ばしたい分野は？", en: "What area do you want to grow most right now?" },
+    choices: [
+      { label: { ja: "キャリア・仕事", en: "Career & work" }, tags: ["business", "motivation"] },
+      { label: { ja: "学び・教育", en: "Learning & education" }, tags: ["education", "science"] },
+      { label: { ja: "心と習慣", en: "Mindset & habits" }, tags: ["psychology", "health"] },
+    ],
+  },
+  {
+    text: { ja: "どんな話にワクワクする？", en: "What kind of talks excite you?" },
+    choices: [
+      { label: { ja: "最新テクノロジー", en: "Cutting-edge technology" }, tags: ["technology", "science"] },
+      { label: { ja: "人と社会の物語", en: "Human and social stories" }, tags: ["society", "psychology"] },
+      { label: { ja: "創造的なアイデア", en: "Creative ideas" }, tags: ["creativity", "education"] },
+    ],
+  },
+  {
+    text: { ja: "視聴後に得たいものは？", en: "What do you want after watching?" },
+    choices: [
+      { label: { ja: "すぐ使える実践ヒント", en: "Practical tips" }, tags: ["business", "health"] },
+      { label: { ja: "新しい視点", en: "New perspective" }, tags: ["society", "science"] },
+      { label: { ja: "やる気と勇気", en: "Motivation and courage" }, tags: ["motivation", "psychology"] },
+    ],
+  },
+  {
+    text: { ja: "興味のあるテーマは？", en: "Which theme interests you most?" },
+    choices: [
+      { label: { ja: "地球環境・未来", en: "Environment & future" }, tags: ["environment", "science"] },
+      { label: { ja: "健康・ウェルビーイング", en: "Health & wellbeing" }, tags: ["health", "psychology"] },
+      { label: { ja: "起業・リーダーシップ", en: "Startup & leadership" }, tags: ["business", "technology"] },
+    ],
+  },
+  {
+    text: { ja: "どのスタイルが好き？", en: "Which style do you prefer?" },
+    choices: [
+      { label: { ja: "データで論理的", en: "Data-driven and logical" }, tags: ["science", "technology"] },
+      { label: { ja: "体験談中心", en: "Personal stories" }, tags: ["society", "motivation"] },
+      { label: { ja: "ユニークで創造的", en: "Unique and creative" }, tags: ["creativity", "education"] },
+    ],
+  },
+  {
+    text: { ja: "仕事で活かすなら？", en: "For work impact, you prefer..." },
+    choices: [
+      { label: { ja: "プレゼン・伝達力", en: "Communication skills" }, tags: ["business", "education"] },
+      { label: { ja: "チームづくり", en: "Team building" }, tags: ["business", "psychology"] },
+      { label: { ja: "新規発想", en: "Innovation" }, tags: ["creativity", "technology"] },
+    ],
+  },
+  {
+    text: { ja: "日常で改善したいことは？", en: "What do you want to improve daily?" },
+    choices: [
+      { label: { ja: "集中力", en: "Focus" }, tags: ["psychology", "health"] },
+      { label: { ja: "学習効率", en: "Learning efficiency" }, tags: ["education", "science"] },
+      { label: { ja: "行動力", en: "Execution" }, tags: ["motivation", "business"] },
+    ],
+  },
+  {
+    text: { ja: "社会課題への関心は？", en: "Your interest in social issues?" },
+    choices: [
+      { label: { ja: "教育格差", en: "Education gap" }, tags: ["education", "society"] },
+      { label: { ja: "気候変動", en: "Climate change" }, tags: ["environment", "science"] },
+      { label: { ja: "働き方の変化", en: "Future of work" }, tags: ["business", "technology"] },
+    ],
+  },
+  {
+    text: { ja: "視聴時間の気分は？", en: "How do you feel before watching?" },
+    choices: [
+      { label: { ja: "落ち着いて学びたい", en: "Calm and reflective" }, tags: ["science", "education"] },
+      { label: { ja: "刺激がほしい", en: "Need inspiration" }, tags: ["motivation", "creativity"] },
+      { label: { ja: "人間理解を深めたい", en: "Understand people better" }, tags: ["psychology", "society"] },
+    ],
+  },
+  {
+    text: { ja: "最後に、今の関心に最も近いのは？", en: "Finally, what best matches your current interest?" },
+    choices: [
+      { label: { ja: "AI・未来技術", en: "AI & future tech" }, tags: ["technology", "science"] },
+      { label: { ja: "生き方・幸福", en: "Life and happiness" }, tags: ["health", "motivation"] },
+      { label: { ja: "社会と共感", en: "Society and empathy" }, tags: ["society", "psychology"] },
+    ],
+  },
+];
 
 const state = {
   lang: "ja",
