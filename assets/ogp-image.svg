@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="TED Speech Finder OGP image">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1020" cy="130" r="120" fill="#ffffff" fill-opacity="0.13"/>
+  <circle cx="1100" cy="250" r="160" fill="#ffffff" fill-opacity="0.09"/>
+  <text x="80" y="245" fill="#ffffff" font-family="Arial, sans-serif" font-size="78" font-weight="700">TED Speech Finder</text>
+  <text x="80" y="320" fill="#dbeafe" font-family="Arial, sans-serif" font-size="38">日本語・English 人気スピーチ推薦</text>
+  <text x="80" y="390" fill="#dbeafe" font-family="Arial, sans-serif" font-size="34">10問で、あなた向けの講演を提案</text>
+  <rect x="80" y="440" width="350" height="78" rx="14" fill="#ffffff"/>
+  <text x="255" y="490" text-anchor="middle" fill="#1e3a8a" font-family="Arial, sans-serif" font-size="36" font-weight="700">Static Web App</text>
+</svg>

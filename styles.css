@@ -1,0 +1,86 @@
+:root {
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #475569;
+  --accent: #2563eb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  max-width: 840px;
+  margin: 2rem auto;
+  padding: 0 1rem 2rem;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+.panel {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 14px rgba(15, 23, 42, 0.07);
+}
+
+.settings label {
+  margin-right: 1rem;
+}
+
+button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  opacity: 0.92;
+}
+
+.choices {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.choice-btn {
+  width: 100%;
+  text-align: left;
+  background: #e2e8f0;
+  color: #1e293b;
+}
+
+.choice-btn:hover {
+  background: #cbd5e1;
+}
+
+.hidden {
+  display: none;
+}
+
+#recommendations li {
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
