@@ -11,6 +11,7 @@ const TAGS = [
   "psychology",
 ];
 
+
 const BASE_SPEECHES_SEED = {
   en: [
     { title: "Do schools kill creativity?", speaker: "Sir Ken Robinson", year: 2006, tags: ["education", "creativity", "society"], popularity: 99, url: "https://www.ted.com/talks/sir_ken_robinson_do_schools_kill_creativity" },
